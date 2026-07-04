@@ -238,22 +238,22 @@
 }
 
 /* Staggered hero entrance — CSS-only, respects reduced-motion. */
-@keyframes inceptor-rise {
+@keyframes banxico-watch-rise {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
 }
-@keyframes inceptor-float {
+@keyframes banxico-watch-float {
   0%, 100% { transform: translateY(0) rotate(0deg); }
   50% { transform: translateY(-10px) rotate(2deg); }
 }
-@keyframes inceptor-spin-slow {
+@keyframes banxico-watch-spin-slow {
   to { transform: rotate(360deg); }
 }
 .rise {
-  animation: inceptor-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: banxico-watch-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
-.float-slow { animation: inceptor-float 7s ease-in-out infinite; }
-.spin-slow { animation: inceptor-spin-slow 40s linear infinite; }
+.float-slow { animation: banxico-watch-float 7s ease-in-out infinite; }
+.spin-slow { animation: banxico-watch-spin-slow 40s linear infinite; }
 @media (prefers-reduced-motion: reduce) {
   .rise, .float-slow, .spin-slow { animation: none; }
 }

@@ -2,7 +2,7 @@
   "$schema": "./forbidden-imports.schema.json",
   "version": "1.0.0",
   "source": "CLAUDE.md §Critical warnings + docs/PRINCIPLES.md §7",
-  "purpose": "Single source of banned module specifiers for the IDD/Inceptor stack. centinela's forbidden-import scan and src/tests/forbidden-imports.test.ts both read THIS file — change a rule here, not in prose. Each `pattern` matches an import specifier (prefix match for scopes ending in '/').",
+  "purpose": "Single source of banned module specifiers for the IDD/Banxico Watch stack. centinela's forbidden-import scan and src/tests/forbidden-imports.test.ts both read THIS file — change a rule here, not in prose. Each `pattern` matches an import specifier (prefix match for scopes ending in '/').",
   "banned": [
     {
       "pattern": "@radix-ui/",

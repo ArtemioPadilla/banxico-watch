@@ -1,5 +1,5 @@
 name: Question
-description: Ask a question about the template or the Inceptor workflow
+description: Ask a question about the template or the Banxico Watch workflow
 labels: ["question"]
 body:
   - type: textarea

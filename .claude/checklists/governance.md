@@ -1,6 +1,6 @@
 # Governance checklist (single source)
 
-The baseline every Inceptor-derived repo should satisfy. `prometeo` reads this
+The baseline every Banxico Watch-derived repo should satisfy. `prometeo` reads this
 on its governance pre-check; humans use it during repo setup. Mirrors
 `docs/PRINCIPLES.md` §6 and `docs/governance/branch-protection.md`.
 
